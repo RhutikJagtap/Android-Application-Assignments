@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Student Information" />
+
+    <EditText
+        android:id="@+id/fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="First Name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/midn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Middle Name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date of birth"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/eid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL-ID"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="submitData"
+        android:text="SUBMIT">
+
+    </Button>
+
+</LinearLayout>
