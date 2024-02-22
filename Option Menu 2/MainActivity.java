@@ -8,7 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Option1 extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     EditText et1;
     int square;
