@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Number"
+        android:textSize="15sp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Num" />
+
+    <RadioGroup
+        android:id="@+id/rdGp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odd or Even" />
+
+        <RadioButton
+            android:id="@+id/rdb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Positive or Negative" />
+
+        <RadioButton
+            android:id="@+id/rdb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square" />
+
+        <RadioButton
+            android:id="@+id/rdb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Factorial" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ans :"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" />
+
+</LinearLayout>
