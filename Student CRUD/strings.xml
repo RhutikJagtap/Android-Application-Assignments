@@ -1,0 +1,14 @@
+<!--Inside values folder strings.xml-->
+
+<resources>
+    <string name="app_name">Student CRUD</string>
+    <string name="show">SHOW</string>
+    <string name="insert">INSERT</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_student_name">Enter Student Name</string>
+    <string name="enter_id">Enter Id</string>
+    <string name="enter_student_id">Enter Student Id</string>
+    <string name="student_crud_operation">Student CRUD Operation</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
+</resources>
