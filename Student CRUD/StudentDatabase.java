@@ -32,7 +32,7 @@ public class StudentDatabase extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    //User defined Method
+    //User define Method
     public boolean insertData(int id, String name) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -43,7 +43,7 @@ public class StudentDatabase extends SQLiteOpenHelper {
     }
 
 
-    //User Defined Method
+    //User define Method
     public Cursor getAllData() {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery("select *from student", null);
@@ -51,6 +51,7 @@ public class StudentDatabase extends SQLiteOpenHelper {
     }
 
 
+     //User define Method
     public boolean updateData(String new_id, String new_name) {
         SQLiteDatabase database = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -59,6 +60,7 @@ public class StudentDatabase extends SQLiteOpenHelper {
         return true;
     }
 
+    //User define Method
     public Integer deleteData(Integer id) {
         SQLiteDatabase database = this.getWritableDatabase();
         return database.delete("student", "id=?", new String[]{String.valueOf(id)});
