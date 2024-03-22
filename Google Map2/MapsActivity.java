@@ -51,7 +51,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(pune).title("Marker in Pune"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(pune));
 
-        //change type of the Map
+        //change type of the Map  SATTELITE
         mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 
 
